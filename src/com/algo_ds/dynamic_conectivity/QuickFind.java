@@ -14,7 +14,13 @@ public class QuickFind {
     public boolean connected(int p, int q){
         return (id[p] == id[q]);
     }
-
+    /***
+     * Union two points.
+     * Needs to change all the objects id[p] to id[q].
+     * N union commands on N objects becomes O(n)=n^2
+     * @param p fist point
+     * @param q second point
+     */
     public void union(int p, int q){
         int pid = id[p];
         int qid = id[q];
@@ -24,16 +30,5 @@ public class QuickFind {
                 id[i] = qid;
             }
         }
-    }
-
-    public static void main(String args[]){
-        System.out.println("Initializing the Algo");
-        int size = 10;
-        QuickFind algo = new QuickFind(size);
-        algo.union(0,1);
-        algo.union(9, 0);
-        boolean check = algo.connected(9,1);
-        System.out.println("Should be true: " + check);
-        System.out.println("Should be false: " + algo.connected(9,3));
     }
 }
