@@ -18,7 +18,7 @@ public class QuickUnion extends QuickFind {
         int rootP = getRoot(p);
         int rootQ = getRoot(q);
         // replace p root with q root
-        id[p] = rootQ;
+        id[q] = rootP;
 
     }
 
