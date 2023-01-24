@@ -1,4 +1,4 @@
-package com.algo_ds.dynamic_conectivity;
+package com.algods.dynamic_conectivity;
 
 /***
  * Union-Find algorithm using weighted trees in the union method.

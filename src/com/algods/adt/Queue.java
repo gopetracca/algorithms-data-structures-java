@@ -1,4 +1,4 @@
-package com.algo_ds.adt;
+package com.algods.adt;
 
 /***
  * Implement a FIFO Queue using a Linked List.

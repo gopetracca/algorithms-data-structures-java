@@ -1,8 +1,7 @@
-package com.algo_ds.dynamic_conectivity;
+package com.algods.dynamic_conectivity;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.Objects;
 import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,4 +1,4 @@
-package com.algo_ds.dynamic_conectivity;
+package com.algods.dynamic_conectivity;
 
 public class QuickFind {
     public int id[];
