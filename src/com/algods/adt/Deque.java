@@ -8,7 +8,7 @@ public class Deque<Item> implements Iterable<Item> {
     private class Node {
         Item item;
         Node next;
-        Node prev; // TODO: Do I need a reference to the previous one,?
+        Node prev;
     }
 
     private Node first;
